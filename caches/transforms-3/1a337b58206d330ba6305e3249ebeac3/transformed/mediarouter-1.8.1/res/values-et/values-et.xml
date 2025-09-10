@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="9119039724000326934" name="ic_media_route_learn_more_accessibility">"Lisateave ülekandmise kohta"</string>
+    <string msgid="2939063992730535343" name="mr_button_content_description">"Ülekandmine"</string>
+    <string msgid="6073720094880410356" name="mr_cast_button_connected">"Ülekandmine. Ühendatud"</string>
+    <string msgid="6629927151350192407" name="mr_cast_button_connecting">"Ülekandmine. Ühendamine"</string>
+    <string msgid="8071109333469380363" name="mr_cast_button_disconnected">"Ülekandmine. Pole ühendatud"</string>
+    <string msgid="2175930138959078155" name="mr_cast_dialog_title_view_placeholder">"Teave puudub"</string>
+    <string msgid="4257319068277776035" name="mr_chooser_looking_for_devices">"Seadmete otsimine …"</string>
+    <string msgid="6114250663023140921" name="mr_chooser_searching">"Seadmete otsimine"</string>
+    <string msgid="1419936397646839840" name="mr_chooser_title">"Ülekandmine seadmesse"</string>
+    <string msgid="3799500840179081429" name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">"Lisateave"</a></string>
+    <string msgid="2998902945608081567" name="mr_chooser_wifi_warning_description_car">"Veenduge, et teine seade oleks samas WiFi-võrgus kui see auto"</string>
+    <string msgid="2555886884770958244" name="mr_chooser_wifi_warning_description_phone">"Veenduge, et teine seade oleks samas WiFi-võrgus kui see telefon"</string>
+    <string msgid="6038748488793588164" name="mr_chooser_wifi_warning_description_tablet">"Veenduge, et teine seade oleks samas WiFi-võrgus kui see tahvelarvuti"</string>
+    <string msgid="5845921667085074878" name="mr_chooser_wifi_warning_description_tv">"Veenduge, et teine seade oleks samas WiFi-võrgus kui see teler"</string>
+    <string msgid="3459891599800041449" name="mr_chooser_wifi_warning_description_unknown">"Veenduge, et teine seade oleks samas WiFi-võrgus kui see seade"</string>
+    <string msgid="5255021372884233706" name="mr_chooser_wifi_warning_description_watch">"Veenduge, et teine seade oleks samas WiFi-võrgus kui see kell"</string>
+    <string msgid="5213435473397442608" name="mr_chooser_zero_routes_found_title">"Ühtegi seadet pole saadaval"</string>
+    <string msgid="3330502667672708728" name="mr_controller_album_art">"Albumi kujundus"</string>
+    <string msgid="9171231064758955152" name="mr_controller_casting_screen">"Ekraanikuva ülekandmine"</string>
+    <string msgid="5684434439232634509" name="mr_controller_close_description">"Sule"</string>
+    <string msgid="2585048604188129749" name="mr_controller_collapse_group">"Ahenda"</string>
+    <string msgid="7812275474138309497" name="mr_controller_disconnect">"Katkesta ühendus"</string>
+    <string msgid="4521419834052044261" name="mr_controller_expand_group">"Laienda"</string>
+    <string msgid="855271725131981086" name="mr_controller_no_info_available">"Teave pole saadaval"</string>
+    <string msgid="5495452265246139458" name="mr_controller_no_media_selected">"Meediat pole valitud"</string>
+    <string msgid="747801650871398383" name="mr_controller_pause">"Peata"</string>
+    <string msgid="1253345086594430054" name="mr_controller_play">"Esita"</string>
+    <string msgid="5497722768305745508" name="mr_controller_stop">"Katkesta"</string>
+    <string msgid="804210341192624074" name="mr_controller_stop_casting">"Katkesta ülekandmine"</string>
+    <string msgid="2955862765169128170" name="mr_controller_volume_slider">"Helitugevuse liugur"</string>
+    <string msgid="4115858704575247342" name="mr_dialog_default_group_name">"Grupp"</string>
+    <string msgid="4307018456678388936" name="mr_dialog_groupable_header">"Seadme lisamine"</string>
+    <string msgid="6068257520605505468" name="mr_dialog_transferable_header">"Grupis esitamine"</string>
+    <string msgid="5056346328175584455" name="mr_route_name_bluetooth">"Bluetooth"</string>
+    <string msgid="708574147123374685" name="mr_route_name_speaker">"Kõlar"</string>
+    <string msgid="8041420425123528188" name="mr_route_name_tv">"Teler"</string>
+    <string msgid="5538521943939635302" name="mr_route_name_unknown">"Teadmata"</string>
+    <string msgid="7449553026175453403" name="mr_system_route_name">"Süsteem"</string>
+    <string msgid="4088331695424166162" name="mr_user_route_category_name">"Seadmed"</string>
+</resources>
