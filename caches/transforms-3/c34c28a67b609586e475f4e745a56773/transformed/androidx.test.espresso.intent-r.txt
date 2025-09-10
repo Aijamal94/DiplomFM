@@ -1,2 +1,0 @@
-androidx.test.espresso.intent
-id view_tree_lifecycle_owner

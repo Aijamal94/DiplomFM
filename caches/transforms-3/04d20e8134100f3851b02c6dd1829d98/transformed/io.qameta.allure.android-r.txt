@@ -1,2 +1,0 @@
-io.qameta.allure.android
-id view_tree_lifecycle_owner
