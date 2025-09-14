@@ -9,12 +9,12 @@ public class TestDataInfo extends BaseClass {
 
     private static int maxQuotes = 8;
     private static String category = "Объявление";
-    private static String title = "Всем привет";
-    private static String date = "25.05.2025";
-    private static String time = "16:30";
-    private static String description = "хочу обратить ваше внимание";
-    private static String link = "https://google.com";
-    private static String newDescription = "всем смотреть";
+    private static String title = "Всех приветствую";
+    private static String date = "13.09.2025";
+    private static String time = "17:30";
+    private static String description = "Внимание, внимание, внимание";
+    private static String link = "https://yandex.ru";
+    private static String newDescription = "всем к прочтению";
 
     public static String getValidLogin() {
         return validLogin;

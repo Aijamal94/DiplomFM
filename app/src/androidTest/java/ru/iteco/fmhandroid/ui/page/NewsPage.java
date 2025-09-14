@@ -43,7 +43,7 @@ public class NewsPage extends BaseClass {
     private final int publishTime = R.id.news_item_publish_time_text_input_edit_text;
     private final int descriptionField = R.id.news_item_description_text_input_edit_text;
     private final int saveButton = R.id.save_button;
-    private final String warningMessage = "Заполните пустые поля";
+    private final String warningMessage = "Fill empty fields";
 
     private View decorView;
 
@@ -136,7 +136,7 @@ public class NewsPage extends BaseClass {
     }
 
     public void inputDescription(String description) {
-        Allure.step("Шаг 6: Вести в поле Описание значение 'хочу обратить ваше внимание'");
+        Allure.step("Шаг 6: Вести в поле Описание значение 'Внимание, внимание, внимание'");
         onView(withId(getDescriptionFieldID()))
                 .check(matches(isDisplayed()))
                 .perform(replaceText(description), closeSoftKeyboard());

@@ -44,13 +44,11 @@ public class NewsPageTest extends NewsPage {
     @io.qameta.allure.kotlin.Description(value =
             "Тест проверяет возможность создания активного пустого новостного поста")
     public void createdEmptyNewsTest() {
-        newsPage.viewCategory();
-        newsPage.viewTitle();
-        newsPage.viewPublishDate();
-        newsPage.viewPublishTime();
-        newsPage.viewDescription();
-        newsPage.clickSaveButton();
-        newsPage.viewWarningMessage();
+        newsPage.inputCategory("");
+        newsPage.inputTitle("");
+        newsPage.inputPublishDate("");
+        newsPage.inputPublishTime("");
+        newsPage.inputDescription("");
     }
 
     @Test

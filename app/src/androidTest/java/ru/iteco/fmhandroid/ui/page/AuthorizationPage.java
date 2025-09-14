@@ -33,11 +33,11 @@ public class AuthorizationPage extends BaseClass {
     private final int fieldPassword = R.id.password_text_input_layout;
     private final int enterButton = R.id.enter_button;
 
-    private final String exitButton = "Выйти";
-    private final String login = "Логин";
-    private final String password = "Пароль";
-    private final String errorMessageEmpty = "Логин и пароль не могут быть пустыми";
-    private final String errorMessageInvalid = "Что-то пошло не так. Попробуйте позднее.";
+    private final String exitButton = "Log out";
+    private final String login = "Login";
+    private final String password = "Password";
+    private final String errorMessageEmpty = "Login and password cannot be empty";
+    private final String errorMessageInvalid = "Something went wrong. Try again later.";
 
 
     private View decorView;

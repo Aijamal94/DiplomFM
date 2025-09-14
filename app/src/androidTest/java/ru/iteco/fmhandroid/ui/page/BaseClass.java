@@ -18,6 +18,8 @@ import android.view.ViewParent;
 import androidx.test.espresso.PerformException;
 import androidx.test.ext.junit.rules.ActivityScenarioRule;
 
+import junit.framework.AssertionFailedError;
+
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 import org.hamcrest.TypeSafeMatcher;
@@ -35,43 +37,37 @@ public class BaseClass {
             new ActivityScenarioRule<>(AppActivity.class);
 
     private final int mainPageID = R.id.container_list_news_include_on_fragment_main;
+    private final int fieldLoginID = R.id.login_text_input_layout;
+    private final int fieldPasswordID = R.id.password_text_input_layout;
     private final int loginButton = R.id.enter_button;
     private final int newsBox = R.id.all_news_text_view;
-
+    private final String login = "Login";
     private final String validLogin = "login2";
+    private final String password = "Password";
     private final String validPassword = "password2";
 
     @Before
     public void authorizationUserOrNot() {
-        Allure.step("Шаг 1: Запустить приложение. Проверка: авторизован ли пользователь?");
+        Allure.step("Шаг 1: Запустить приложение. Открывается Главная");
         try {
-            // если уже авторизованы → проверяем главную
-            onView(isRoot()).perform(waitDisplayed(mainPageID, 15000));
+            onView(isRoot()).perform(waitDisplayed(mainPageID, 7000));
             onView(withId(mainPageID)).check(matches(isDisplayed()));
 
         } catch (PerformException e) {
-            // иначе → авторизация
-            Allure.step("Шаг 2: Авторизация на экране логина");
+            Allure.step("Шаг 1: Запустить приложение. Открывается страница авторизации");
+            onView(isRoot()).perform(waitDisplayed(fieldLoginID, 7000));
 
-            onView(isRoot()).perform(waitDisplayed(loginButton, 15000));
+            onView(withId(fieldLoginID)).perform(click());
+            onView(withHint(login)).perform(typeText(validLogin), closeSoftKeyboard());
 
-            // вводим логин
-            onView(withHint("Login"))
-                    .check(matches(isDisplayed()))
-                    .perform(typeText(validLogin), closeSoftKeyboard());
+            onView(withId(fieldPasswordID)).check(matches(isDisplayed()));
+            onView(withId(fieldPasswordID)).perform(click());
+            onView(withHint(password)).perform(typeText(validPassword), closeSoftKeyboard());
 
-            // вводим пароль
-            onView(withHint("Password"))
-                    .check(matches(isDisplayed()))
-                    .perform(typeText(validPassword), closeSoftKeyboard());
-
-            // нажимаем "Войти"
             onView(withId(loginButton)).check(matches(isDisplayed()));
             onView(withId(loginButton)).perform(click());
 
-            // проверяем главную страницу
-            onView(isRoot()).perform(waitDisplayed(newsBox, 15000));
-            onView(withId(newsBox)).check(matches(isDisplayed()));
+            onView(isRoot()).perform(waitDisplayed(newsBox, 7000));
         }
     }
 

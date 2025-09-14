@@ -14,7 +14,6 @@ import io.qameta.allure.kotlin.Allure;
 import ru.iteco.fmhandroid.R;
 
 public class MainPage extends BaseClass {
-
     private final int newsBox = R.id.container_list_news_include_on_fragment_main;
     private final int allNewsButton = R.id.all_news_text_view;
 

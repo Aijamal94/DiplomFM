@@ -21,7 +21,7 @@ public class AboutApplicationPage extends BaseClass {
 
     private final String privacyPolicy = "https://vhospice.org/#/privacy-policy";
 
-    private final String buttonAbout = "О приложении";
+    private final String buttonAbout = "About";
     private final int navigationButton = R.id.main_menu_image_button;
     private final int userAgreementID = R.id.about_terms_of_use_value_text_view;
     private final String userAgreement = "https://vhospice.org/#/terms-of-use";
@@ -70,7 +70,7 @@ public class AboutApplicationPage extends BaseClass {
     }
 
     public void clickButtonAbout() {
-        Allure.step("Шаг 3: Нажать О Приложении");
+        Allure.step("Шаг 3: Нажать About");
         onView(withText(getButtonAboutText()))
                 .check(matches(isDisplayed()))
                 .perform(click());
