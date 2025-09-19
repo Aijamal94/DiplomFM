@@ -1,0 +1,165 @@
+{
+    "name": "ТС-049. Авторизация с валидными значениями полей логин и пароль",
+    "start": 1758274096506,
+    "stop": 1758274107912,
+    "stage": "finished",
+    "description": "Тест проверяет авторизацию с валидными данными",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Шаг 1: Запустить приложение. Открывается страница авторизации",
+            "start": 1758274097021,
+            "stop": 1758274097021,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Шаг 1: Запустить приложение. Открывается главная страница",
+            "start": 1758274104067,
+            "stop": 1758274104067,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Шаг 2: Нажать на 2131230842",
+            "start": 1758274104070,
+            "stop": 1758274104071,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Шаг 3: Нажать на кнопку Log out",
+            "start": 1758274104464,
+            "stop": 1758274104464,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Шаг 4: Ввести в поле логин валидное значение ",
+            "start": 1758274104765,
+            "stop": 1758274104765,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Шаг 5: Ввести в поле пароль валидное значение",
+            "start": 1758274105891,
+            "stop": 1758274105891,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Шаг 6: Нажать на кнопку Войти",
+            "start": 1758274107061,
+            "stop": 1758274107061,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "f7cc4084-2e84-4fbe-98c3-6aa5b050880f",
+    "historyId": "d14df3d5dc9b761060d8a0ba5269847d",
+    "fullName": "ru.iteco.fmhandroid.ui.test.AuthorizationTest.validAuthorizationTest",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.test"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.test.AuthorizationTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "validAuthorizationTest"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.test.AuthorizationTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(956)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

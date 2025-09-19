@@ -1,0 +1,117 @@
+{
+    "name": "ТС-014. Переход по ссылке Политика Конфиденциальности",
+    "start": 1758274091533,
+    "stop": 1758274096479,
+    "stage": "finished",
+    "description": "Тест проверяет интент",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Шаг 1: Запустить приложение. Открывается Главная",
+            "start": 1758274091822,
+            "stop": 1758274091822,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Шаг 2: Нажать на меню навигации",
+            "start": 1758274095062,
+            "stop": 1758274095062,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Шаг 3: Нажать About",
+            "start": 1758274095458,
+            "stop": 1758274095458,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Шаг 4: Нажать на ссылку",
+            "start": 1758274095741,
+            "stop": 1758274095741,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "9e785a72-d9c6-4615-b1b8-7a4f1d1c41bb",
+    "historyId": "4492cc9b3bd795eb3fb1cf1c5627e4",
+    "fullName": "ru.iteco.fmhandroid.ui.test.AboutApplicationTest.intentPrivacyPolicyTest",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.test"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.test.AboutApplicationTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "intentPrivacyPolicyTest"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.test.AboutApplicationTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(956)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

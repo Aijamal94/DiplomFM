@@ -1,0 +1,117 @@
+{
+    "name": "ТС 048. Отображение текущей версии приложения на странице",
+    "start": 1758273781139,
+    "stop": 1758273786811,
+    "stage": "finished",
+    "description": "Тест проверяет отобращение актуальной версии приложения",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Шаг 1: Запустить приложение. Открывается Главная",
+            "start": 1758273781826,
+            "stop": 1758273781826,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Шаг 2: Нажать на меню навигации",
+            "start": 1758273785884,
+            "stop": 1758273785884,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Шаг 3: Нажать About",
+            "start": 1758273786275,
+            "stop": 1758273786275,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Шаг 4: Посмотреть отображаемую версию в верхней части страницы",
+            "start": 1758273786556,
+            "stop": 1758273786556,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "463d587e-5082-4cee-9ea3-bf8736a61184",
+    "historyId": "6026c2ccfecddb21dd1862469d42ee84",
+    "fullName": "ru.iteco.fmhandroid.ui.test.AboutApplicationTest.actualVersionTest",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.test"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.test.AboutApplicationTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "actualVersionTest"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.test.AboutApplicationTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(897)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

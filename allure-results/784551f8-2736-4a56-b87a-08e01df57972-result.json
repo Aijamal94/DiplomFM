@@ -1,0 +1,101 @@
+{
+    "name": "Тест-кейс 37. Отображение max кол-во цитат в разделе",
+    "start": 1758274151779,
+    "stop": 1758274155755,
+    "stage": "finished",
+    "description": "Тест проверяет отображение max кол-во цитат в разделе",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Шаг 1: Запустить приложение. Открывается Главная",
+            "start": 1758274152061,
+            "stop": 1758274152062,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Шаг 2: Нажать на изображение бабочки",
+            "start": 1758274155255,
+            "stop": 1758274155255,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Шаг 3: Посмотреть сколько цитат отображается на странице",
+            "start": 1758274155582,
+            "stop": 1758274155582,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "784551f8-2736-4a56-b87a-08e01df57972",
+    "historyId": "ef90dec849c3bc30bbbc7e05f39881c4",
+    "fullName": "ru.iteco.fmhandroid.ui.test.ThematicQuotesTest.maxQuoteViewTest",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.test"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.test.ThematicQuotesTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "maxQuoteViewTest"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.test.ThematicQuotesTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(956)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}
