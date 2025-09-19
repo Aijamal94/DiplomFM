@@ -43,6 +43,8 @@ captures/
 
 ### VS Code ###
 .vscode/
+.tmp/
+
 
 ### Package Files ###
 *.jar
