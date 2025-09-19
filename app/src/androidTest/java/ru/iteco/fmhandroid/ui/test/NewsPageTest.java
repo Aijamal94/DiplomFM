@@ -3,6 +3,7 @@ package ru.iteco.fmhandroid.ui.test;
 
 import androidx.test.filters.LargeTest;
 
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -27,7 +28,7 @@ public class NewsPageTest extends NewsPage {
     }
 
     @Test
-    @DisplayName(value = "ТС-010. Создание активной новости")
+    @DisplayName(value = "Тест-кейс 010. Создание активной новости")
     @io.qameta.allure.kotlin.Description(value = "Тест проверяет возможность создания активного новостного поста")
     public void createdActivNewsTest() {
         newsPage.inputCategory(TestDataInfo.getCategory());
@@ -44,11 +45,13 @@ public class NewsPageTest extends NewsPage {
     @io.qameta.allure.kotlin.Description(value =
             "Тест проверяет возможность создания активного пустого новостного поста")
     public void createdEmptyNewsTest() {
-        newsPage.inputCategory("");
-        newsPage.inputTitle("");
-        newsPage.inputPublishDate("");
-        newsPage.inputPublishTime("");
-        newsPage.inputDescription("");
+        newsPage.viewCategory();
+        newsPage.viewTitle();
+        newsPage.viewPublishDate();
+        newsPage.viewPublishTime();
+        newsPage.viewDescription();
+        newsPage.clickSaveButton();
+        newsPage.viewWarningMessage();
     }
 
     @Test
